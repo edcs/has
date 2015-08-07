@@ -1,0 +1,28 @@
+{
+  "name": "has",
+  "version": "1.0.0",
+  "description": "A tiny module which lets you check if a browser supports a feature.",
+  "author": "Edward Coleridge Smith <e.coleridgesmith@edcs.me>",
+  "homepage": "http://ecs.io",
+  "main": "src/has.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edcs/has.git"
+  },
+  "bugs": {
+    "url": "https://github.com/edcs/has/issues"
+  },
+  "keywords": [
+    "has",
+    "feature",
+    "html5"
+  ],
+  "analyze": true,
+  "license": "MIT",
+  "scripts": {
+    "compile": "webpack src/has.js has.min.js -p"
+  },
+  "devDependencies": {
+    "webpack": "1.7.2"
+  }
+}
