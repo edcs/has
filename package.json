@@ -1,5 +1,5 @@
 {
-  "name": "has",
+  "name": "edcs-has",
   "version": "1.0.0",
   "description": "A tiny module which lets you check if a browser supports a feature.",
   "author": "Edward Coleridge Smith <e.coleridgesmith@edcs.me>",
